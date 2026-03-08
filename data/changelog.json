@@ -1,0 +1,56 @@
+[
+  {
+    "version": "0.1.0",
+    "date": "2026-03-09",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "登录服务器：完整登录认证流程、`_M`/`_F` 后缀自动注册、客户端 EXE 哈希校验、账号状态与封禁检查、登录审计日志"
+      },
+      {
+        "type": "feature",
+        "description": "角色服务器：角色创建与列表查看、即时删除与预约删除制、PIN 码（二次密码）系统、角色改名与槽位移动"
+      },
+      {
+        "type": "feature",
+        "description": "地图服务器：地图加载与实体初始化、A* 寻路与基础移动系统、区域广播、Tick 同步与心跳、游戏主循环与定时器"
+      },
+      {
+        "type": "feature",
+        "description": "GM 指令系统：`@warp` 传送指令，支持自动搜索可通行位置"
+      },
+      {
+        "type": "feature",
+        "description": "重复登录踢号：Login → Char → Map 三层踢号链路与超时保底机制"
+      },
+      {
+        "type": "feature",
+        "description": "在线状态同步：Map → Char → Login 定期上报在线人数"
+      },
+      {
+        "type": "feature",
+        "description": "游戏数据加载：支持 YAML 格式，递归 Import/Footer 机制，运行时热加载"
+      },
+      {
+        "type": "feature",
+        "description": "数据库：SQLite / MySQL 双后端支持，含连接池与自动迁移"
+      },
+      {
+        "type": "feature",
+        "description": "多语言支持：基于 Fluent 的国际化框架"
+      },
+      {
+        "type": "feature",
+        "description": "日志系统：终端彩色输出 + 文件日志，数据加载进度条显示"
+      },
+      {
+        "type": "feature",
+        "description": "崩溃报告：异常退出时自动生成诊断报告文件"
+      },
+      {
+        "type": "feature",
+        "description": "TOML 分层配置：支持默认配置与用户自定义配置分离加载"
+      }
+    ]
+  }
+]
