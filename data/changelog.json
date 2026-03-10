@@ -1,5 +1,19 @@
 [
   {
+    "version": "0.3.1",
+    "date": "2026-03-10",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "实现个人仓库（Account Storage）：支持存取物品、关闭仓库，数据持久化到数据库"
+      },
+      {
+        "type": "feature",
+        "description": "新增 `@storage` GM 指令，用于打开个人仓库"
+      }
+    ]
+  },
+  {
     "version": "0.3.0",
     "date": "2026-03-10",
     "changes": [
